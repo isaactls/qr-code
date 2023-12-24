@@ -56,3 +56,21 @@ p{
     padding: 10px;
     color: hsl(220, 15%, 55%);
 }
+
+@media (max-width: 480px){
+    .container{
+        width: 100%;
+        margin-left: 0;
+        height: 100vh;
+        margin-bottom: 0;
+    }
+    .card{
+     margin: 5px;
+     width: 80%;
+    }
+    .txt{
+    padding-top: 20px;
+    padding: 15px;
+    text-align: center;
+    }
+}
