@@ -10,6 +10,10 @@ body{
     background-color: white;
     box-sizing: border-box;
     text-align: center;
+    display: grid;
+  place-content: center;
+  min-height: 100vh;
+  max-width: 100%;
 }
 .container{
     margin-top: 10%;
@@ -18,7 +22,7 @@ body{
     margin-right: 5%;
     display: flex;
     align-self: center;
-    height: 100%;
+   
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -33,6 +37,7 @@ body{
     justify-content: space-between;
     align-items: center;
     margin: 10%;
+    height: 500px;
     overflow: hidden;
     border-radius: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -55,6 +60,14 @@ body{
 p{
     padding: 10px;
     color: hsl(220, 15%, 55%);
+}
+footer {
+    background-color: rgb(210, 210, 219);
+    padding: 20px;
+}
+footer p{
+    font-size: 24px;
+    color: black;
 }
 
 @media (max-width: 480px){
